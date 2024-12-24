@@ -18,13 +18,13 @@ const UserSchema = new mongoose.Schema(
       required: true,
     },
 
-    isAdmin: {
-      type: Boolean,
-      default: false,
-    },
-    img: {
-      type: String,
-    },
+    // isAdmin: {
+    //   type: Boolean,
+    //   default: false,
+    // },
+    // img: {
+    //   type: String,
+    // },
   },
   { timestamps: true }
 );
