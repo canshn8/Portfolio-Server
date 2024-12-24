@@ -1,4 +1,4 @@
-const Mail = require('../models/mail'); // MongoDB modelini import et
+const Mail = require('../models/Mail'); // MongoDB modelini import et
 
 exports.saveMessage = async (req, res) => {
     const { fullName, email, message } = req.body;
