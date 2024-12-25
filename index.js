@@ -26,11 +26,10 @@ mongoose
 
 
 
-app.use("/api/auth", authRoutes);
-app.use("/api/files", fileRoutes);
-app.use("/api/projects", projectRoutes);
-app.use("/api/mail", sendMailRoutes);
-
+app.use("/api", authRoutes);
+app.use("/api", fileRoutes);
+app.use("/api", projectRoutes);
+app.use("/api", sendMailRoutes);
 
 
 app.listen(process.env.PORT || 5000, () => {
