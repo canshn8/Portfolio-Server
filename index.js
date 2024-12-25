@@ -26,10 +26,10 @@ mongoose
 
 
 
-app.use("/api", authRoutes);
-app.use("/api", fileRoutes);
-app.use("/api", projectRoutes);
-app.use("/api", sendMailRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/files", fileRoutes);
+app.use("/api/projects", projectRoutes);
+app.use("/api/mail", sendMailRoutes);
 
 
 
